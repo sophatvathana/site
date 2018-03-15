@@ -7,7 +7,7 @@ var pkg = require('./package.json');
 module.exports = {
     url: {
         dataSet: 'https://gw.alipayobjects.com/os/antv/assets/data-set/0.8.5/data-set.min.js',
-        f2: 'https://gw.alipayobjects.com/os/rmsportal/IpWmLTYBXlcKKTsDwjHb.js',
+        f2: 'https://gw.alipayobjects.com/os/rmsportal/JmDYdGTiNYnThEwgDZVx.js',
         g2: 'https://gw.alipayobjects.com/os/antv/assets/g2/3.0.5-beta.4/g2.min.js',
         g6: 'https://gw.alipayobjects.com/os/antv/assets/g6/1.2.5/g6.min.js',
         'g6-plugins': 'https://gw.alipayobjects.com/os/antv/assets/g6-plugins/1.0.1/g6-plugins.min.js',
@@ -30,32 +30,32 @@ module.exports = {
         name: 'AntV'
     },
     screenshots: [
-        {
-            src: 'zh-cn/g2/3.x/demo',
-            dest: '${assets}/dist/${pkg.version}/g2/3.x',
-            template: 'g2-demo-standalone'
-        },
-        {
-            src: 'zh-cn/g2/3.x/demo',
-            dest: '${assets}/dist/${pkg.version}/g2/3.x',
-            demoTheme: 'dark',
-            template: 'g2-demo-standalone'
-        },
-        {
-            src: 'zh-cn/g6/1.x/demo',
-            dest: '${assets}/dist/${pkg.version}/g6/1.x',
-            template: 'g6-demo-standalone'
-        },
+        // {
+        //     src: 'zh-cn/g2/3.x/demo',
+        //     dest: '${assets}/dist/${pkg.version}/g2/3.x',
+        //     template: 'g2-demo-standalone'
+        // },
+        // {
+        //     src: 'zh-cn/g2/3.x/demo',
+        //     dest: '${assets}/dist/${pkg.version}/g2/3.x',
+        //     demoTheme: 'dark',
+        //     template: 'g2-demo-standalone'
+        // },
+        // {
+        //     src: 'zh-cn/g6/1.x/demo',
+        //     dest: '${assets}/dist/${pkg.version}/g6/1.x',
+        //     template: 'g6-demo-standalone'
+        // },
         {
             src: 'zh-cn/f2/3.x/demo',
             dest: '${assets}/dist/${pkg.version}/f2/3.x',
             template: 'f2-demo-standalone'
         },
-        {
-            src: 'zh-cn/gallery/g2',
-            dest: '${assets}/dist/${pkg.version}/gallery/g2',
-            template: 'g2-demo-standalone'
-        },
+        // {
+        //     src: 'zh-cn/gallery/g2',
+        //     dest: '${assets}/dist/${pkg.version}/gallery/g2',
+        //     template: 'g2-demo-standalone'
+        // },
     ],
     indices: [{
         src: 'zh-cn',
